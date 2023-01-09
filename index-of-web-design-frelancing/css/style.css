@@ -43,6 +43,10 @@ p{
     color: antiquewhite;
     padding-bottom: 5%;
 }
+#left-bar a{
+    color: yellow;
+}
+
 #left-bar a,#left-bar-1 a,#left-bar-2 a {
     padding-left: 5%;
     font-size: 20px;
