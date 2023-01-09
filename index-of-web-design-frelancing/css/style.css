@@ -1,0 +1,152 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: large;
+    font-weight: 600;
+}
+#top-nav-bar{
+    height: 10%;
+    width: 100%;
+    padding-left: 5%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    /* overflow: hidden; */
+    color: aliceblue;
+    font-size: 17px;
+}
+#top-nav-bar h1{
+    line-height: 50px;
+}
+#left-bar-1{
+    height: 100%;
+    width: 15%;
+    /* padding-left: 1%; */
+    background-color: black;
+    position: fixed;
+    top: 10%;
+    overflow: auto;
+    color: antiquewhite;
+    padding-bottom: 5%;
+}
+#left-bar{
+    height: 100%;
+    width: 30%;
+    /* padding-left: 1%; */
+    background-color: black;
+    position: fixed;
+    top: 10%;
+    overflow: auto;
+    color: antiquewhite;
+    padding-bottom: 5%;
+}
+#left-bar a,#left-bar-1 a,#left-bar-2 a {
+    padding-left: 5%;
+    font-size: 20px;
+}
+#left-bar-2{
+    height: 100%;
+    width: 15%;
+    /* padding-left: 1%; */
+    background-color: rgb(138, 32, 32);
+    position: fixed;
+    top: 10%;
+    left: 15%;
+    overflow: auto;
+    color: antiquewhite;
+    padding-bottom: 5%;
+}
+#main{
+    width: 70%;
+    height: 100%;
+    margin-left: 30%;
+    padding: 3%;
+    padding-top: 10%;
+    background-color: rgb(211, 203, 219);
+    overflow: auto;
+}
+#main-lofb{
+    width: 85%;
+    height: 100%;
+    margin-left: 15%;
+    padding: 3%;
+    padding-top: 10%;
+    background-color: rgb(211, 203, 219);
+    overflow: auto;
+}
+img{
+    width: 100%;
+}
+.to_jump{
+	display: inline-block;
+	padding-top: 11%;
+  }
+  .all-center{
+	width: 50%;
+	background-color: rgb(187, 41, 102);
+	color: #fff;
+	text-align: center;
+	margin: 2px auto;
+	padding: 10px 5px;
+}
+.all-center100{
+	/* width: 100%; */
+	background-color: rgb(184, 39, 104);
+	color: #fff;
+	text-align: center;
+	padding: 10px 5px;
+}
+/* *{
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.mtop-20{
+    top: 15%;
+}
+img{
+	width: 100%;
+}
+.describe {
+    border: 1px solid;
+    padding: 10px;
+    background-color: #4ac3c3;
+}
+.practice{
+	border: 1px solid;
+    padding: 10px;
+	margin-top: 10px;
+    background-color: #6044a1;
+	text-align: center;
+}
+.all-center{
+	width: 50%;
+	background-color: rgb(187, 41, 102);
+	color: #fff;
+	text-align: center;
+	margin: 2px auto;
+	padding: 10px 5px;
+}
+.all-center100{
+	width: 100%;
+	background-color: rgb(184, 39, 104);
+	color: #fff;
+	text-align: center;
+	margin: auto;
+	padding: 10px 5px;
+}
+pre{
+	font-size: 20px !important;
+}
+@media (max-width: 600px) {
+	.col-3{
+		width: 100%;
+	}
+	.col-9{
+		width: 100%;
+	}
+} */
